@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: FileManager Plug-in
+Bundle-SymbolicName: com.rv.FileManager; singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: com.rv.filemanager.Activator
+Bundle-Vendor: RV
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Eclipse-LazyStart: true
+Export-Package: com.rv.filemanager,
+ com.rv.filemanager.views
